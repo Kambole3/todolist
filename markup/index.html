@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>todolist.kambole</title>
+</head>
+<body>
+    <header>
+        <h1>Список задач</h1>
+    </header>
+
+        <main>
+            <section class="firstsection">
+                <label >новая задача</label>
+                <div>
+                    <input id="todoname" type="text" placeholder="название задачи..">
+                    <button id="add" type="submit"> + добавить </button>
+                </div>
+            </section >
+            <section class="secondsection">
+                <ul id="log">
+                    <div id="title">бэклог</div>
+                    <li>выучить JS</li>
+                    <li>выучить react</li>
+                    <li>сделать домашку</li>
+
+                </ul>
+                <ul id="process">
+                    <div id="ndtitle"> В процессе </div>
+                    <li>выпить смузи</li>
+                    <li>полить воды</li>
+
+                </ul>
+                
+                
+                <ul id="ready">
+                    <div id="rdtitle">готово </div>
+                    <li>позвонить маме</li>
+                    <li>погладить кота</li>
+                </ul>
+
+                <ul id="list">
+                    <div id="fthtitle">корзина </div>
+                    <li>сходить погулять </li>
+                    <li>прочитать войну и мир</li>
+                    <button id="clear" type="submit">x очистить</button>
+                </ul>
+                
+
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    
+</body>
+</html>
